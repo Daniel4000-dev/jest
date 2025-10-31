@@ -6,6 +6,6 @@ test('Null Values', () => {
     const value = null;
     expect(value).toBeNull();
     expect(value).toBeDefined();
-    expect(value).not.toBeUndefined();
-    expect(value).toBeFalsy()
+    expect(value).toBeUndefined();
+    expect(value).toBeTruthy()
 })
